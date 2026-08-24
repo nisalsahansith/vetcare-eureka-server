@@ -1,6 +1,5 @@
 spring:
   application:
     name: discovery-server
-
   config:
-    import: optional:configserver:http://localhost:8888
+    import: optional:configserver:https://10.10.0.4:8888
